@@ -8,7 +8,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- *  终止操作
+ * 终止操作
  */
 public class StreamEndOperate {
     List<Employee> employees = Arrays.asList(
@@ -36,14 +36,14 @@ public class StreamEndOperate {
 
     /**
      * 查找和匹配
-     *       allMatch	检查是否匹配到所有元素
-     *       anyMatch	检查是否至少匹配到一个元素
-     *       noneMatch	检查是否没有匹配到所有元素
-     *       findFirst	返回第一个元素
-     *       findAny	返回当前流中的任意元素
-     *       count	返回流中匹配到的元素的总个数
-     *       max	返回流中的最大值
-     *       min	返回流中的最小值
+     * allMatch	检查是否匹配到所有元素
+     * anyMatch	检查是否至少匹配到一个元素
+     * noneMatch	检查是否没有匹配到所有元素
+     * findFirst	返回第一个元素
+     * findAny	返回当前流中的任意元素
+     * count	返回流中匹配到的元素的总个数
+     * max	返回流中的最大值
+     * min	返回流中的最小值
      */
     @Test
     public void test() {
@@ -107,7 +107,7 @@ public class StreamEndOperate {
 
     /**
      * 归约
-     *      reduce(T identity,BinaryOperator)/reduce(BinaryOperator)  可以将流中的元素反复结合起来，得到一个值
+     * reduce(T identity,BinaryOperator)/reduce(BinaryOperator)  可以将流中的元素反复结合起来，得到一个值
      */
     @Test
     public void testReduce() {
@@ -127,7 +127,7 @@ public class StreamEndOperate {
 
     /**
      * 收集
-     *      collect 将流转换为其他形式，接收一个Collector接口的实现，用于给Stream中的元素做汇总的方法
+     * collect 将流转换为其他形式，接收一个Collector接口的实现，用于给Stream中的元素做汇总的方法
      */
     @Test
     public void testCollect() {
@@ -158,13 +158,13 @@ public class StreamEndOperate {
 
     /**
      * 其他的收集情况
-     *      总数
-     *      平均值
-     *      总和
-     *      两种方式  直接返回总数，总和，最小值，平均值，最大值
-     *      工资最大值员工信息
-     *      最少工资值
-     *      连接
+     * 总数
+     * 平均值
+     * 总和
+     * 两种方式  直接返回总数，总和，最小值，平均值，最大值
+     * 工资最大值员工信息
+     * 最少工资值
+     * 连接
      */
     @Test
     public void testCollect2() {
@@ -213,9 +213,9 @@ public class StreamEndOperate {
 
     /**
      * 其他的收集情况
-     *      分组
-     *      多级分组
-     *      分区
+     * 分组
+     * 多级分组
+     * 分区
      */
     @Test
     public void testCollect3() {
@@ -254,28 +254,6 @@ public class StreamEndOperate {
             booleanListEntry.getValue().stream().forEach(System.out::println);
         }
 
-    }
-
-    /**
-     * 给定一些数字数组，返回由每个数字的平方组成的列表
-     */
-    @Test
-    public void practice() {
-        Integer[] array = new Integer[]{1, 2, 3, 4, 5};
-        Arrays.stream(array)
-                .map(x -> x * x)
-                .forEach(System.out::println);
-    }
-
-    /**
-     * 利用 map 和 reduce 方法数一数流中有多少个Employee
-     */
-    @Test
-    public void practice2() {
-        Optional<Integer> reduce = employees.stream()
-                .map(e -> 1)
-                .reduce(Integer::sum);
-        System.out.println(reduce.get());
     }
 }
 
