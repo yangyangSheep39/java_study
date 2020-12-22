@@ -5,8 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.fangyang</groupId>
-    <artifactId>java8-new-features</artifactId>
+    <artifactId>java-study</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>java8-new-features</module>
+    </modules>
 
     <dependencies>
         <dependency>

@@ -45,6 +45,8 @@ cmake-build-*/
 out/
 target/
 .idea/
+java8-new-features/target/
+java8-new-features/java8-new-features.iml
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
