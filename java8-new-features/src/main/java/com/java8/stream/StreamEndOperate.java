@@ -77,10 +77,12 @@ public class StreamEndOperate {
         System.out.println(first.get());
         System.out.println("============================================================");
         /*返回任意一个元素*/
-        Optional<Employee> any = employees.stream()//获取到一个串行流
+        //获取到一个串行流
+        Optional<Employee> any = employees.stream()
                 .filter(employee -> employee.getStatus().equals(Employee.Status.FREE))
                 .findAny();
-        Optional<Employee> any2 = employees3.parallelStream()//获取到一个并行流，多个线程同时找
+        //获取到一个并行流，多个线程同时找
+        Optional<Employee> any2 = employees3.parallelStream()
                 .filter(employee -> employee.getStatus().equals(Employee.Status.FREE))
                 .findAny();
         System.out.println(any.get());
@@ -113,9 +115,9 @@ public class StreamEndOperate {
     public void testReduce() {
         //归约操作先将起始值作为x，然后从流中取一个值作为y，然后将运算结果再作为x，再取值，往复
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
-
+        //(起始值,二元运算)
         Integer sum = list.stream()
-                .reduce(0, (x, y) -> x + y);//(起始值,二元运算)
+                .reduce(0, (x, y) -> x + y);
         System.out.println(sum);
         System.out.println("============================================================");
         //计算总工资是多少
@@ -207,7 +209,8 @@ public class StreamEndOperate {
         //连接
         String collect = employees.stream()
                 .map(Employee::getName)
-                .collect(Collectors.joining(",", "===", "==="));//,隔开  后两个不传参会自动去掉首尾
+                //,隔开  后两个不传参会自动去掉首尾
+                .collect(Collectors.joining(",", "===", "==="));
         System.out.println(collect);
     }
 
