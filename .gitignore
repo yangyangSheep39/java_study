@@ -31,6 +31,7 @@
 # auto-import.
 # .idea/modules.xml
 .idea/*.iml
+*.iml
 # .idea/modules
 
 # CMake
