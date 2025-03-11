@@ -80,4 +80,4 @@ fabric.properties
 /.idea
 
 !/.idea/notes.db
-!/.idea/_notes/**/*
+!/.idea/_notes/
