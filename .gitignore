@@ -52,7 +52,7 @@ java8-new-features/java8-new-features.iml
 
 hashmap-source-code-analysis/hashmap-source-code-analysis.iml
 !.idea/notes.db
-!.idea/_notes
+!.idea/_notes/**
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
