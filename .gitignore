@@ -92,5 +92,10 @@ fabric.properties
 /.idea/notesWindowViewState.xml
 /.idea/vcs.xml
 /.idea/workspace.xml
+/.idea/modules.xml
+/.idea/dataSources/
+
 !/.idea/notes.db
 !/.idea/_notes/
+/.idea/codeStyles/
+/.idea/.workspace_index/
