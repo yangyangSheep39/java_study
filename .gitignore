@@ -1,7 +1,6 @@
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
-!/.idea/notes.db
-!/.idea/_notes/
+
 # User-specific stuff
 .idea/**/workspace.xml
 .idea/**/tasks.xml
@@ -94,7 +93,10 @@ fabric.properties
 /.idea/vcs.xml
 /.idea/workspace.xml
 /.idea/modules.xml
-/.idea/dataSources/
+
+
 /.idea/codeStyles/
 /.idea/.workspace_index/
 
+!/.idea/_notes/
+!/.idea/notes.db
