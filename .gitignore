@@ -94,8 +94,7 @@ fabric.properties
 /.idea/workspace.xml
 /.idea/modules.xml
 /.idea/dataSources/
-
-!/.idea/notes.db
-!/.idea/_notes/
 /.idea/codeStyles/
 /.idea/.workspace_index/
+!/.idea/notes.db
+!/.idea/_notes/
