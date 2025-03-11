@@ -16,6 +16,7 @@
         <module>java8-new-features</module>
         <module>hashmap-source-code-analysis</module>
         <module>demo-utils</module>
+        <module>java_virtual_machine</module>
     </modules>
 
 
