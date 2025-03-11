@@ -98,5 +98,5 @@ fabric.properties
 /.idea/codeStyles/
 /.idea/.workspace_index/
 
-!/.idea/_notes/
-!/.idea/notes.db
+!.idea/_notes/
+!.idea/notes.db
