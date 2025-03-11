@@ -46,13 +46,11 @@ cmake-build-*/
 # IntelliJ
 out/
 target/
-.idea/
 java8-new-features/target/
 java8-new-features/java8-new-features.iml
 
 hashmap-source-code-analysis/hashmap-source-code-analysis.iml
-!.idea/notes.db
-!.idea/_notes/**
+
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
@@ -77,4 +75,9 @@ fabric.properties
 .project
 .settings
 .classpath
-.factorypath
+.factorypath!/.idea/notes.db
+
+/.idea
+
+!/.idea/notes.db
+!/.idea/_notes/**/*
