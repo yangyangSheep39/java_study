@@ -77,7 +77,20 @@ fabric.properties
 .classpath
 .factorypath!/.idea/notes.db
 
-/.idea
-
+/.idea/.gitignore
+/.idea/ApifoxUploaderProjectSetting.xml
+/.idea/aws.xml
+/.idea/checkstyle-idea.xml
+/.idea/code_notes_settings.xml
+/.idea/compiler.xml
+/.idea/dataSources.local.xml
+/.idea/dataSources.xml
+/.idea/encodings.xml
+/.idea/jarRepositories.xml
+/.idea/java-study.iml
+/.idea/misc.xml
+/.idea/notesWindowViewState.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
 !/.idea/notes.db
 !/.idea/_notes/
