@@ -99,4 +99,5 @@ fabric.properties
 /.idea/.workspace_index/
 
 !.idea/_notes/
+!.idea/_notes/**/*
 !.idea/notes.db
