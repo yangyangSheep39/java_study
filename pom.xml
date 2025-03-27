@@ -18,6 +18,11 @@
         <module>demo-utils</module>
         <module>java_virtual_machine</module>
         <module>new-features/java17-new-features</module>
+        <module>new-features/java9-new-features</module>
+        <module>new-features/java11-new-features</module>
+        <module>new-features/java9-new-features</module>
+        <module>new-features/java11-new-features</module>
+        <module>new-features/java21-new-features</module>
     </modules>
 
 
@@ -25,7 +30,7 @@
         <junit.version>4.13.1</junit.version>
         <lombok.version>1.18.16</lombok.version>
         <junit.jupiter.version>5.7.0</junit.jupiter.version>
-        <guava.version>29.0-jre</guava.version>
+        <guava.version>32.0.1-android</guava.version>
     </properties>
 
 
