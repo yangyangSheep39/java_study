@@ -11,6 +11,9 @@ autoDetectedPackages:
 - com.java8.repeat_type_annotation
 - com.java8.stream
 enableAutoDetect: true
+entryDisplayConfig:
+  excludedPathPatterns: []
+  skipJsCss: true
 funcDisplayConfig:
   skipConstructors: false
   skipFieldAccess: true

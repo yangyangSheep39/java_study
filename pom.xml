@@ -13,10 +13,11 @@
 
 
     <modules>
-        <module>java8-new-features</module>
+        <module>new-features/java8-new-features</module>
         <module>hashmap-source-code-analysis</module>
         <module>demo-utils</module>
         <module>java_virtual_machine</module>
+        <module>new-features/java17-new-features</module>
     </modules>
 
 
@@ -58,15 +59,15 @@
 
     <profiles>
         <profile>
-            <id>jdk11</id>
+            <id>jdk17</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
-                <jdk>11</jdk>
+                <jdk>17</jdk>
             </activation>
             <properties>
-                <maven.compiler.source>11</maven.compiler.source>
-                <maven.compiler.target>11</maven.compiler.target>
-                <maven.compiler.compilerVersion>11</maven.compiler.compilerVersion>
+                <maven.compiler.source>17</maven.compiler.source>
+                <maven.compiler.target>17</maven.compiler.target>
+                <maven.compiler.compilerVersion>17</maven.compiler.compilerVersion>
             </properties>
         </profile>
     </profiles>
