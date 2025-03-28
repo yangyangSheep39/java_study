@@ -13,8 +13,8 @@
 
 
     <modules>
-        <module>new_features/java8-new-features</module>
-        <module>hashmap-source-code-analysis</module>
+        <module>new_features/java8_new_features</module>
+        <module>hashmap_source_code_analysis</module>
         <module>demo_utils</module>
         <module>java_virtual_machine</module>
         <module>new_features/java17_new_features</module>

@@ -10,7 +10,7 @@
 
 
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>java8-new-features</artifactId>
+    <artifactId>hashmap_source_code_analysis</artifactId>
 
 
     <dependencies>
