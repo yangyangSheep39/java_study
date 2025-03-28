@@ -1,6 +1,6 @@
 package com.fangyang.java9.test;
 
-//未导入无法引用
+//module-info未导入无法引用
 //import com.fangyang.java9.bean.User;
 
 import com.fangyang.java9.modularity.Person;
@@ -17,7 +17,7 @@ public class ModularityTest {
         Person person = new Person("John Doe", 30);
         System.out.println("The message from Modularity Test!!!!!!!!");
         System.out.println("Name: " + person.getName() + ", Age: " + person.getAge());
-        //未导入无法引用
+        //module-info未导入无法引用
         //User user  = new User("John Doe", 30);
     }
 }
