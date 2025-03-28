@@ -8,6 +8,7 @@ autoDetectedPackages:
 - com.fangyang.java8.optional
 - com.fangyang.java8.repeat_type_annotation
 - com.fangyang.java8.stream
+- com.fangyang.java9.bean
 - com.fangyang.java9.modularity
 - com.fangyang.java9.test
 - com.hashmap
