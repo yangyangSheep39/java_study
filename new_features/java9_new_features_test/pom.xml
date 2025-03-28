@@ -2,16 +2,24 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>java-study</artifactId>
         <groupId>com.fangyang</groupId>
+        <artifactId>java_study</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
 
+    <groupId>com.fangyang.java9.test</groupId>
+    <artifactId>java9_new_features_test</artifactId>
 
-    <modelVersion>4.0.0</modelVersion>
-    <artifactId>java8-new-features</artifactId>
 
+    <properties>
+        <maven.compiler.source>9</maven.compiler.source>
+        <maven.compiler.target>9</maven.compiler.target>
+        <maven.compiler.compilerVersion>9</maven.compiler.compilerVersion>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -32,21 +40,22 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.fangyang.java9</groupId>
+            <artifactId>java9_new_features</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
 
     <profiles>
         <profile>
-            <id>jdk8</id>
+            <id>jdk9</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
-                <jdk>8</jdk>
+                <jdk>9</jdk>
             </activation>
-            <properties>
-                <maven.compiler.source>8</maven.compiler.source>
-                <maven.compiler.target>8</maven.compiler.target>
-                <maven.compiler.compilerVersion>8</maven.compiler.compilerVersion>
-            </properties>
         </profile>
     </profiles>
 </project>

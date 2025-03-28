@@ -1,15 +1,21 @@
 autoDetectedPackages:
 - com.fangyang.demo.utils
+- com.fangyang.java8.default_and_static_method
+- com.fangyang.java8.entity
+- com.fangyang.java8.lambda
+- com.fangyang.java8.method_and_constructor_reference
+- com.fangyang.java8.new_time_api
+- com.fangyang.java8.optional
+- com.fangyang.java8.repeat_type_annotation
+- com.fangyang.java8.stream
+- com.fangyang.java9.modularity
+- com.fangyang.java9.test
 - com.hashmap
-- com.java8.default_and_static_method
-- com.java8.entity
-- com.java8.lambda.beginning
-- com.java8.lambda.practice
-- com.java8.method_and_constructor_reference
-- com.java8.new_time_api
-- com.java8.optional
-- com.java8.repeat_type_annotation
-- com.java8.stream
+- java17_new_features.src.test.java
+- java8-new-features.src.main.java
+- java9_new_features.src.main.java
+- java9_new_features.src.test.java
+- java9_new_features_test.src.main.java
 enableAutoDetect: true
 entryDisplayConfig:
   excludedPathPatterns: []
