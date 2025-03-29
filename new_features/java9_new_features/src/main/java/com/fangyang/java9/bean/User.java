@@ -5,7 +5,7 @@ import lombok.Setter;
 
 /**
  * @Author yangyangsheep
- * @Description 模块化测试-com.fangyang.java9.modularity.Person
+ * @Description 模块化测试-com.fangyang.java9.modularity.User
  * @CreateTime 2025/3/28 15:36
  */
 @Getter
