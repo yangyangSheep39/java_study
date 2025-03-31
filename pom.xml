@@ -23,7 +23,6 @@
         <module>new_features/java11_new_features</module>
         <module>new_features/java21_new_features</module>
         <module>new_features/java9_new_features_test</module>
-        <module>new_features/java9_new_features_mutlijar</module>
     </modules>
 
 

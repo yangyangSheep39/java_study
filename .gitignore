@@ -101,3 +101,6 @@ fabric.properties
 !.idea/_notes/
 !.idea/_notes/**/*
 !.idea/notes.db
+/new_features/java9_new_features/multijar.jar!/
+/new_features/java9_new_features/build9/
+/new_features/java9_new_features/build8/
