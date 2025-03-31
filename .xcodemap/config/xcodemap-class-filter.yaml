@@ -1,23 +1,11 @@
 autoDetectedPackages:
 - com.fangyang.demo.utils
-- com.fangyang.java8.default_and_static_method
-- com.fangyang.java8.entity
-- com.fangyang.java8.java9
-- com.fangyang.java8.lambda
-- com.fangyang.java8.method_and_constructor_reference
-- com.fangyang.java8.new_time_api
-- com.fangyang.java8.optional
-- com.fangyang.java8.repeat_type_annotation
-- com.fangyang.java8.stream
-- com.fangyang.java9.bean
-- com.fangyang.java9.interfacetest
-- com.fangyang.java9.modularity
-- com.fangyang.java9.mutlijar
-- com.fangyang.java9.test
+- com.fangyang.java8
+- com.fangyang.java9
 - com.hashmap
 - java17_new_features.src.test.java
 - java8_new_features.src.main.java
-- java9_new_features.multijar.jar!.com
+- java8_new_features.src.test.java
 - java9_new_features.src.main.java
 - java9_new_features.src.test.java
 - java9_new_features_test.src.main.java

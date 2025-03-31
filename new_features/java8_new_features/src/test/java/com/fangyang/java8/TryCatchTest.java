@@ -55,11 +55,11 @@ public class TryCatchTest {
         //Java9
         InputStreamReader inputStreamReader2 = new InputStreamReader(System.in);
         OutputStreamWriter outputStreamWriter2 = new OutputStreamWriter(System.out);
-        try (inputStreamReader2; outputStreamWriter2) {
-            // 读取数据
-            inputStreamReader2.read();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+        //try (inputStreamReader2; outputStreamWriter2) {
+        //    // 读取数据
+        //    inputStreamReader2.read();
+        //} catch (IOException e) {
+        //    throw new RuntimeException(e);
+        //}
     }
 }
