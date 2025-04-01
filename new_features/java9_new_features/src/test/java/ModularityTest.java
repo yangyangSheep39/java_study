@@ -1,4 +1,5 @@
 import com.fangyang.java9.modularity.Person;
+import org.junit.Test;
 
 /**
  * @Author yangyangsheep
@@ -7,9 +8,17 @@ import com.fangyang.java9.modularity.Person;
  */
 public class ModularityTest {
 
-    public static void main(String[] args) {
+    @Test
+    public void testModule() {
         //在同一个模块当中是可以使用的
         Person person = new Person("John Doe", 30);
         System.out.println("Name: " + person.getName() + ", Age: " + person.getAge());
+    }
+
+    @Test
+    public void testVar() {
+        //在同一个模块当中是可以使用的
+        var str = "Hello World";
+        System.out.println(str);
     }
 }

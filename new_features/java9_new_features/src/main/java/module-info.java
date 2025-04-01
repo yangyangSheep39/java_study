@@ -6,6 +6,7 @@
 module java9_new_features {
     requires lombok;
     requires org.junit.jupiter.api;
+    requires java.net.http;
     exports com.fangyang.java9.modularity;//确保导出包
 }
 
